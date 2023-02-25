@@ -37,7 +37,10 @@ namespace Invert_mirror_BinaryTree
             tree.right = new TreeNode(4);
             tree.right.left = new TreeNode(3);
             tree.right.right = new TreeNode(5);
-            Console.WriteLine("Hello World!");
+
+            Solution solution = new Solution();
+           var invertedTree= solution.InvertTree(tree);
+           Console.ReadLine();
         }
     }
 }
