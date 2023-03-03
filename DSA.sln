@@ -45,9 +45,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EditDistance", "EditDistanc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructQuadTree", "ConstructQuadTree\ConstructQuadTree.csproj", "{2579608B-E48A-4363-B412-3A241A6F57BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindDuplicateSubtrees", "FindDuplicateSubtrees\FindDuplicateSubtrees.csproj", "{1EF5DA50-DC9F-4F94-BA9D-DC2D300995FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindDuplicateSubtrees", "FindDuplicateSubtrees\FindDuplicateSubtrees.csproj", "{1EF5DA50-DC9F-4F94-BA9D-DC2D300995FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Odd Numbers in an Interval Range", "Count Odd Numbers in an Interval Range\Count Odd Numbers in an Interval Range.csproj", "{E1994B37-63B5-461C-A5BF-C3F55B935F61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count Odd Numbers in an Interval Range", "Count Odd Numbers in an Interval Range\Count Odd Numbers in an Interval Range.csproj", "{E1994B37-63B5-461C-A5BF-C3F55B935F61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add Binary", "Add Binary\Add Binary.csproj", "{CB7A99A1-72EE-437C-8D45-F6CB5E52F3A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sort an Array", "Sort an Array\Sort an Array.csproj", "{E8B1C4E3-88C2-42AA-B465-39092B477BF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String Compression", "String Compression\String Compression.csproj", "{C4811AB3-EE3F-41DB-A183-7B2C1F7983BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find the Index of the First Occurrence in a String", "Find the Index of the First Occurrence in a String\Find the Index of the First Occurrence in a String.csproj", "{BE09EA9E-8EAA-4BAB-AFE7-75359636EA89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +155,22 @@ Global
 		{E1994B37-63B5-461C-A5BF-C3F55B935F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1994B37-63B5-461C-A5BF-C3F55B935F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1994B37-63B5-461C-A5BF-C3F55B935F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB7A99A1-72EE-437C-8D45-F6CB5E52F3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB7A99A1-72EE-437C-8D45-F6CB5E52F3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB7A99A1-72EE-437C-8D45-F6CB5E52F3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB7A99A1-72EE-437C-8D45-F6CB5E52F3A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B1C4E3-88C2-42AA-B465-39092B477BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B1C4E3-88C2-42AA-B465-39092B477BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B1C4E3-88C2-42AA-B465-39092B477BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B1C4E3-88C2-42AA-B465-39092B477BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4811AB3-EE3F-41DB-A183-7B2C1F7983BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4811AB3-EE3F-41DB-A183-7B2C1F7983BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4811AB3-EE3F-41DB-A183-7B2C1F7983BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4811AB3-EE3F-41DB-A183-7B2C1F7983BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE09EA9E-8EAA-4BAB-AFE7-75359636EA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE09EA9E-8EAA-4BAB-AFE7-75359636EA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE09EA9E-8EAA-4BAB-AFE7-75359636EA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE09EA9E-8EAA-4BAB-AFE7-75359636EA89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
