@@ -75,7 +75,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Implement Trie (Prefix Tree
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Can Place Flowers", "Can Place Flowers\Can Place Flowers.csproj", "{46BE1144-3D7C-4BA1-9147-C88790BB172B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number of Zero-Filled Subarrays", "Number of Zero-Filled Subarrays\Number of Zero-Filled Subarrays.csproj", "{9B011228-CBBC-428D-A51D-1C4A43B8E929}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number of Zero-Filled Subarrays", "Number of Zero-Filled Subarrays\Number of Zero-Filled Subarrays.csproj", "{9B011228-CBBC-428D-A51D-1C4A43B8E929}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minimum Score of a Path Between Two Cities", "Minimum Score of a Path Between Two Cities\Minimum Score of a Path Between Two Cities.csproj", "{9A0910CB-8AB2-4C5B-8E42-D1E769B788EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reorder Routes to Make All Paths Lead to the City Zero", "Reorder Routes to Make All Paths Lead to the City Zero\Reorder Routes to Make All Paths Lead to the City Zero.csproj", "{879D187B-B0A0-441C-925C-994C03236892}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Count Unreachable Pairs of Nodes in an Undirected Graph", "Count Unreachable Pairs of Nodes in an Undirected Graph\Count Unreachable Pairs of Nodes in an Undirected Graph.csproj", "{3B7A653D-1ACF-49A3-BF2B-38C17268C91B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest Cycle in a Graph", "Longest Cycle in a Graph\Longest Cycle in a Graph.csproj", "{6F27242C-C388-4E74-B5E5-B4971AE0B89E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +239,22 @@ Global
 		{9B011228-CBBC-428D-A51D-1C4A43B8E929}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B011228-CBBC-428D-A51D-1C4A43B8E929}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B011228-CBBC-428D-A51D-1C4A43B8E929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0910CB-8AB2-4C5B-8E42-D1E769B788EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0910CB-8AB2-4C5B-8E42-D1E769B788EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0910CB-8AB2-4C5B-8E42-D1E769B788EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0910CB-8AB2-4C5B-8E42-D1E769B788EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879D187B-B0A0-441C-925C-994C03236892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879D187B-B0A0-441C-925C-994C03236892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879D187B-B0A0-441C-925C-994C03236892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879D187B-B0A0-441C-925C-994C03236892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7A653D-1ACF-49A3-BF2B-38C17268C91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7A653D-1ACF-49A3-BF2B-38C17268C91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7A653D-1ACF-49A3-BF2B-38C17268C91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7A653D-1ACF-49A3-BF2B-38C17268C91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F27242C-C388-4E74-B5E5-B4971AE0B89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F27242C-C388-4E74-B5E5-B4971AE0B89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F27242C-C388-4E74-B5E5-B4971AE0B89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F27242C-C388-4E74-B5E5-B4971AE0B89E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
