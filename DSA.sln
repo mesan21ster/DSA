@@ -95,7 +95,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reducing Dishes", "Reducing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Successful Pairs of Spells and Potions", "Successful Pairs of Spells and Potions\Successful Pairs of Spells and Potions.csproj", "{67C030BE-6C0E-4421-87C9-652B6FAB9D68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boats to Save People", "Boats to Save People\Boats to Save People.csproj", "{8CCB4264-0FF2-4053-90C7-B9FEE8EAA1C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boats to Save People", "Boats to Save People\Boats to Save People.csproj", "{8CCB4264-0FF2-4053-90C7-B9FEE8EAA1C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimal Partition of String", "Optimal Partition of String\Optimal Partition of String.csproj", "{AD394826-9925-455C-AB9D-E1A912CED23D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +293,10 @@ Global
 		{8CCB4264-0FF2-4053-90C7-B9FEE8EAA1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CCB4264-0FF2-4053-90C7-B9FEE8EAA1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CCB4264-0FF2-4053-90C7-B9FEE8EAA1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD394826-9925-455C-AB9D-E1A912CED23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD394826-9925-455C-AB9D-E1A912CED23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD394826-9925-455C-AB9D-E1A912CED23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD394826-9925-455C-AB9D-E1A912CED23D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
