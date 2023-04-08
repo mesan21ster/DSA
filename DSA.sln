@@ -101,7 +101,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Optimal Partition of String
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number of Closed Islands", "Number of Closed Islands\Number of Closed Islands.csproj", "{3DB213C7-6D99-4ED6-B4F0-E9E43A9626CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number of Enclaves", "Number of Enclaves\Number of Enclaves.csproj", "{7A2D27F5-148C-4125-8D66-E281C2F412EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number of Enclaves", "Number of Enclaves\Number of Enclaves.csproj", "{7A2D27F5-148C-4125-8D66-E281C2F412EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clone Graph", "Clone Graph\Clone Graph.csproj", "{3CD08DDF-4CCA-490C-A6BA-0306DC184B4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -309,6 +311,10 @@ Global
 		{7A2D27F5-148C-4125-8D66-E281C2F412EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A2D27F5-148C-4125-8D66-E281C2F412EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A2D27F5-148C-4125-8D66-E281C2F412EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD08DDF-4CCA-490C-A6BA-0306DC184B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD08DDF-4CCA-490C-A6BA-0306DC184B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD08DDF-4CCA-490C-A6BA-0306DC184B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD08DDF-4CCA-490C-A6BA-0306DC184B4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
