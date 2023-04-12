@@ -105,7 +105,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number of Enclaves", "Numbe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clone Graph", "Clone Graph\Clone Graph.csproj", "{3CD08DDF-4CCA-490C-A6BA-0306DC184B4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Removing Stars From a String", "Removing Stars From a String\Removing Stars From a String.csproj", "{72D13295-6934-4D3F-9821-2F41C6FFDF7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Removing Stars From a String", "Removing Stars From a String\Removing Stars From a String.csproj", "{72D13295-6934-4D3F-9821-2F41C6FFDF7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplify Path", "Simplify Path\Simplify Path.csproj", "{851B305B-FD36-4D29-858D-4612860D045A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +323,10 @@ Global
 		{72D13295-6934-4D3F-9821-2F41C6FFDF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72D13295-6934-4D3F-9821-2F41C6FFDF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72D13295-6934-4D3F-9821-2F41C6FFDF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851B305B-FD36-4D29-858D-4612860D045A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851B305B-FD36-4D29-858D-4612860D045A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851B305B-FD36-4D29-858D-4612860D045A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851B305B-FD36-4D29-858D-4612860D045A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
