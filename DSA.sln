@@ -107,7 +107,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clone Graph", "Clone Graph\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Removing Stars From a String", "Removing Stars From a String\Removing Stars From a String.csproj", "{72D13295-6934-4D3F-9821-2F41C6FFDF7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplify Path", "Simplify Path\Simplify Path.csproj", "{851B305B-FD36-4D29-858D-4612860D045A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simplify Path", "Simplify Path\Simplify Path.csproj", "{851B305B-FD36-4D29-858D-4612860D045A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validate Stack Sequences", "Validate Stack Sequences\Validate Stack Sequences.csproj", "{7BE050EC-E3AF-44B1-87F3-B973ECD10024}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +329,10 @@ Global
 		{851B305B-FD36-4D29-858D-4612860D045A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{851B305B-FD36-4D29-858D-4612860D045A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{851B305B-FD36-4D29-858D-4612860D045A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE050EC-E3AF-44B1-87F3-B973ECD10024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE050EC-E3AF-44B1-87F3-B973ECD10024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE050EC-E3AF-44B1-87F3-B973ECD10024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE050EC-E3AF-44B1-87F3-B973ECD10024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
