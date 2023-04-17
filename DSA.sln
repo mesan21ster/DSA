@@ -115,6 +115,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Value of K Coins Fr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kids With the Greatest Number of Candies", "Kids With the Greatest Number of Candies\Kids With the Greatest Number of Candies.csproj", "{9E31B37C-283B-40F8-BC26-CD79FCEEFB90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest Common Prefix", "Longest Common Prefix\Longest Common Prefix.csproj", "{058B6D57-86A5-4D42-913E-52652DF51E8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Length of Last Word", "Length of Last Word\Length of Last Word.csproj", "{80A8BFA9-AB27-4117-A495-1C7513328C8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -345,6 +349,14 @@ Global
 		{9E31B37C-283B-40F8-BC26-CD79FCEEFB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E31B37C-283B-40F8-BC26-CD79FCEEFB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E31B37C-283B-40F8-BC26-CD79FCEEFB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{058B6D57-86A5-4D42-913E-52652DF51E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058B6D57-86A5-4D42-913E-52652DF51E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058B6D57-86A5-4D42-913E-52652DF51E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058B6D57-86A5-4D42-913E-52652DF51E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A8BFA9-AB27-4117-A495-1C7513328C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A8BFA9-AB27-4117-A495-1C7513328C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A8BFA9-AB27-4117-A495-1C7513328C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A8BFA9-AB27-4117-A495-1C7513328C8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
