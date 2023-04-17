@@ -109,7 +109,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Removing Stars From a Strin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simplify Path", "Simplify Path\Simplify Path.csproj", "{851B305B-FD36-4D29-858D-4612860D045A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validate Stack Sequences", "Validate Stack Sequences\Validate Stack Sequences.csproj", "{7BE050EC-E3AF-44B1-87F3-B973ECD10024}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Validate Stack Sequences", "Validate Stack Sequences\Validate Stack Sequences.csproj", "{7BE050EC-E3AF-44B1-87F3-B973ECD10024}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maximum Value of K Coins From Piles", "Maximum Value of K Coins From Piles\Maximum Value of K Coins From Piles.csproj", "{DD2C86EA-BB85-4B75-876E-1850D98297D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kids With the Greatest Number of Candies", "Kids With the Greatest Number of Candies\Kids With the Greatest Number of Candies.csproj", "{9E31B37C-283B-40F8-BC26-CD79FCEEFB90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -333,6 +337,14 @@ Global
 		{7BE050EC-E3AF-44B1-87F3-B973ECD10024}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BE050EC-E3AF-44B1-87F3-B973ECD10024}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BE050EC-E3AF-44B1-87F3-B973ECD10024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2C86EA-BB85-4B75-876E-1850D98297D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2C86EA-BB85-4B75-876E-1850D98297D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2C86EA-BB85-4B75-876E-1850D98297D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2C86EA-BB85-4B75-876E-1850D98297D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E31B37C-283B-40F8-BC26-CD79FCEEFB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E31B37C-283B-40F8-BC26-CD79FCEEFB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E31B37C-283B-40F8-BC26-CD79FCEEFB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E31B37C-283B-40F8-BC26-CD79FCEEFB90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
