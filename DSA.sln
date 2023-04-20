@@ -121,7 +121,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Length of Last Word", "Leng
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merge Strings Alternately", "Merge Strings Alternately\Merge Strings Alternately.csproj", "{44FA59F5-7B05-4019-95A2-4F78B3AD291D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest ZigZag Path in a Binary Tree", "Longest ZigZag Path in a Binary Tree\Longest ZigZag Path in a Binary Tree.csproj", "{01E281ED-3109-41AE-A270-786AB1D13A6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Longest ZigZag Path in a Binary Tree", "Longest ZigZag Path in a Binary Tree\Longest ZigZag Path in a Binary Tree.csproj", "{01E281ED-3109-41AE-A270-786AB1D13A6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Width of Binary Tree", "Maximum Width of Binary Tree\Maximum Width of Binary Tree.csproj", "{3D4AE7B2-B3E2-4DA6-9EB9-BB33799F1EAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -369,6 +371,10 @@ Global
 		{01E281ED-3109-41AE-A270-786AB1D13A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01E281ED-3109-41AE-A270-786AB1D13A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01E281ED-3109-41AE-A270-786AB1D13A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D4AE7B2-B3E2-4DA6-9EB9-BB33799F1EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4AE7B2-B3E2-4DA6-9EB9-BB33799F1EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4AE7B2-B3E2-4DA6-9EB9-BB33799F1EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4AE7B2-B3E2-4DA6-9EB9-BB33799F1EAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
