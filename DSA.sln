@@ -129,7 +129,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minimum Insertion Steps to 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Last Stone Weight", "Last Stone Weight\Last Stone Weight.csproj", "{637B6981-DA30-4569-AA2B-C442872C82CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smallest Number in Infinite Set", "Smallest Number in Infinite Set\Smallest Number in Infinite Set.csproj", "{58A10F80-EC35-4FA4-9E98-255B5ED38702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smallest Number in Infinite Set", "Smallest Number in Infinite Set\Smallest Number in Infinite Set.csproj", "{58A10F80-EC35-4FA4-9E98-255B5ED38702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix Diagonal Sum", "Matrix Diagonal Sum\Matrix Diagonal Sum.csproj", "{F1F09DF7-BBFE-4D1C-99BE-D93A7FF62B99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -393,6 +395,10 @@ Global
 		{58A10F80-EC35-4FA4-9E98-255B5ED38702}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58A10F80-EC35-4FA4-9E98-255B5ED38702}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58A10F80-EC35-4FA4-9E98-255B5ED38702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F09DF7-BBFE-4D1C-99BE-D93A7FF62B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F09DF7-BBFE-4D1C-99BE-D93A7FF62B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F09DF7-BBFE-4D1C-99BE-D93A7FF62B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F09DF7-BBFE-4D1C-99BE-D93A7FF62B99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
