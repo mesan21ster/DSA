@@ -145,6 +145,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListCycle", "LinkedLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyListwithRandomPointer", "CopyListwithRandomPointer\CopyListwithRandomPointer.csproj", "{61B7544E-EDE2-470F-BC00-008C4B02975E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitLinkedListinParts", "SplitLinkedListinParts\SplitLinkedListinParts.csproj", "{9B8C3787-3A47-457E-97EE-678FB0EC7155}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -435,6 +437,10 @@ Global
 		{61B7544E-EDE2-470F-BC00-008C4B02975E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61B7544E-EDE2-470F-BC00-008C4B02975E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61B7544E-EDE2-470F-BC00-008C4B02975E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8C3787-3A47-457E-97EE-678FB0EC7155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8C3787-3A47-457E-97EE-678FB0EC7155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8C3787-3A47-457E-97EE-678FB0EC7155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8C3787-3A47-457E-97EE-678FB0EC7155}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
