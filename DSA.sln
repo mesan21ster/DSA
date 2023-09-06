@@ -141,7 +141,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtraCharactersinaString", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniquePaths", "UniquePaths\UniquePaths.csproj", "{A1721525-F704-4667-AC3A-4A1314DE2B26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListCycle", "LinkedListCycle\LinkedListCycle.csproj", "{287433AA-4D92-4B94-9E34-8C2B6DCAC19D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedListCycle", "LinkedListCycle\LinkedListCycle.csproj", "{287433AA-4D92-4B94-9E34-8C2B6DCAC19D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyListwithRandomPointer", "CopyListwithRandomPointer\CopyListwithRandomPointer.csproj", "{61B7544E-EDE2-470F-BC00-008C4B02975E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -429,6 +431,10 @@ Global
 		{287433AA-4D92-4B94-9E34-8C2B6DCAC19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{287433AA-4D92-4B94-9E34-8C2B6DCAC19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{287433AA-4D92-4B94-9E34-8C2B6DCAC19D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B7544E-EDE2-470F-BC00-008C4B02975E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B7544E-EDE2-470F-BC00-008C4B02975E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B7544E-EDE2-470F-BC00-008C4B02975E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B7544E-EDE2-470F-BC00-008C4B02975E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
