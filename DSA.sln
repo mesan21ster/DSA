@@ -147,9 +147,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyListwithRandomPointer",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SplitLinkedListinParts", "SplitLinkedListinParts\SplitLinkedListinParts.csproj", "{9B8C3787-3A47-457E-97EE-678FB0EC7155}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseLinkedListII", "ReverseLinkedListII\ReverseLinkedListII.csproj", "{008A2412-0688-4117-9A04-E20B0A7F5540}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseLinkedListII", "ReverseLinkedListII\ReverseLinkedListII.csproj", "{008A2412-0688-4117-9A04-E20B0A7F5540}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseLinkedList", "ReverseLinkedList\ReverseLinkedList.csproj", "{FCE12895-27E4-4278-B212-D09DB2B0CA88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseLinkedList", "ReverseLinkedList\ReverseLinkedList.csproj", "{FCE12895-27E4-4278-B212-D09DB2B0CA88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangle", "PascalTriangle\PascalTriangle.csproj", "{1360F660-D9E8-4A1D-9F05-1E44E5F86AC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -453,6 +455,10 @@ Global
 		{FCE12895-27E4-4278-B212-D09DB2B0CA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCE12895-27E4-4278-B212-D09DB2B0CA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCE12895-27E4-4278-B212-D09DB2B0CA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1360F660-D9E8-4A1D-9F05-1E44E5F86AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1360F660-D9E8-4A1D-9F05-1E44E5F86AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1360F660-D9E8-4A1D-9F05-1E44E5F86AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1360F660-D9E8-4A1D-9F05-1E44E5F86AC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
