@@ -151,9 +151,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseLinkedListII", "Reve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseLinkedList", "ReverseLinkedList\ReverseLinkedList.csproj", "{FCE12895-27E4-4278-B212-D09DB2B0CA88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangle", "PascalTriangle\PascalTriangle.csproj", "{1360F660-D9E8-4A1D-9F05-1E44E5F86AC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PascalTriangle", "PascalTriangle\PascalTriangle.csproj", "{1360F660-D9E8-4A1D-9F05-1E44E5F86AC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangle2", "PascalTriangle2\PascalTriangle2.csproj", "{DBE5C19A-C63B-413D-B53D-AFF333F7A82F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PascalTriangle2", "PascalTriangle2\PascalTriangle2.csproj", "{DBE5C19A-C63B-413D-B53D-AFF333F7A82F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinationSumIV", "CombinationSumIV\CombinationSumIV.csproj", "{0E87D373-8BD1-4859-B3B8-40E95A7F7574}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -465,6 +467,10 @@ Global
 		{DBE5C19A-C63B-413D-B53D-AFF333F7A82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBE5C19A-C63B-413D-B53D-AFF333F7A82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBE5C19A-C63B-413D-B53D-AFF333F7A82F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E87D373-8BD1-4859-B3B8-40E95A7F7574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E87D373-8BD1-4859-B3B8-40E95A7F7574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E87D373-8BD1-4859-B3B8-40E95A7F7574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E87D373-8BD1-4859-B3B8-40E95A7F7574}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
