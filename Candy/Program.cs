@@ -41,32 +41,74 @@
         #endregion
 
         #region with single extra space O(N)
+        /*
+          public int Candy(int[] ratings)
+          {
+              int size = ratings.Length;
+              int[]count = new int[size];
+              Array.Fill(count, 1);//everyone should have 1 candy
+
+              for(int i = 1;i<size;i++)
+              {
+                  if (ratings[i] > ratings[i - 1])
+                  {
+                      count[i] = Math.Max(count[i], count[i - 1] + 1);
+                  }
+              }
+              for(int i = size - 2; i >= 0; i--)
+              {
+                  if (ratings[i] > ratings[i + 1])
+                  {
+                      count[i] = Math.Max(count[i], count[i+1] + 1);
+                  }
+              }
+              int res = 0;
+              for(int i = 0; i < size; i++)
+              {
+                  res+= count[i];
+              }
+              return res;
+          }*/
+        #endregion
+
+        #region with O(1) space
         public int Candy(int[] ratings)
         {
-            int size = ratings.Length;
-            int[]count = new int[size];
-            Array.Fill(count, 1);//everyone should have 1 candy
+            int n = ratings.Length;
+            int candy = n;//each person given one candy
+            int i = 1;
+            while (i < n)
+            {
+                if (ratings[i] == ratings[i - 1])
+                {
+                    i++;
+                    continue;
+                }
+                //increasing slope - peak
 
-            for(int i = 1;i<size;i++)
-            {
-                if (ratings[i] > ratings[i - 1])
+                int peak = 0;
+                while (ratings[i] > ratings[i-1])
                 {
-                    count[i] = Math.Max(count[i], count[i - 1] + 1);
+                    peak++;
+                    candy += peak;
+                    i++;
+                    if (i == n)
+                    {
+                        return candy;
+                    }
                 }
-            }
-            for(int i = size - 2; i >= 0; i--)
-            {
-                if (ratings[i] > ratings[i + 1])
+                //decreasing slope - dip
+
+                int dip = 0;
+                while (i< n && ratings[i] < ratings[i - 1])
                 {
-                    count[i] = Math.Max(count[i], count[i+1] + 1);
+                    dip++;
+                    candy += dip;
+                    i++;
                 }
+                candy -= Math.Min(peak, dip);
             }
-            int res = 0;
-            for(int i = 0; i < size; i++)
-            {
-                res+= count[i];
-            }
-            return res;
+            return candy;
         }
         #endregion
     }
