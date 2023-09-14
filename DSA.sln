@@ -161,7 +161,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupthePeopleGiventheGroup
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumDeletionstoMakeCharacterFrequenciesUnique", "MinimumDeletionstoMakeCharacterFrequenciesUnique\MinimumDeletionstoMakeCharacterFrequenciesUnique.csproj", "{E3F2F066-3443-4A0A-9604-0F4AA3AAF213}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Candy", "Candy\Candy.csproj", "{98D23E17-50E6-4CFA-8631-C23CFF625D22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Candy", "Candy\Candy.csproj", "{98D23E17-50E6-4CFA-8631-C23CFF625D22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReconstructItinerary", "ReconstructItinerary\ReconstructItinerary.csproj", "{5D886746-6DE0-43FE-85EA-17E88858DEE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -489,6 +491,10 @@ Global
 		{98D23E17-50E6-4CFA-8631-C23CFF625D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98D23E17-50E6-4CFA-8631-C23CFF625D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98D23E17-50E6-4CFA-8631-C23CFF625D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D886746-6DE0-43FE-85EA-17E88858DEE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D886746-6DE0-43FE-85EA-17E88858DEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D886746-6DE0-43FE-85EA-17E88858DEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D886746-6DE0-43FE-85EA-17E88858DEE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
