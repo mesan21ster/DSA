@@ -167,7 +167,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReconstructItinerary", "Rec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheKWeakestRowsinaMatrix", "TheKWeakestRowsinaMatrix\TheKWeakestRowsinaMatrix.csproj", "{A3BB4AAD-CF7D-4E31-A98B-3C0087C9BAD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindtheDuplicateNumber", "FindtheDuplicateNumber\FindtheDuplicateNumber.csproj", "{1C45421C-65F5-4D48-B87A-EFB5851A6778}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindtheDuplicateNumber", "FindtheDuplicateNumber\FindtheDuplicateNumber.csproj", "{1C45421C-65F5-4D48-B87A-EFB5851A6778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChampagneTower", "ChampagneTower\ChampagneTower.csproj", "{6797F306-34E1-448B-BB19-FD4F436560E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -507,6 +509,10 @@ Global
 		{1C45421C-65F5-4D48-B87A-EFB5851A6778}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C45421C-65F5-4D48-B87A-EFB5851A6778}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C45421C-65F5-4D48-B87A-EFB5851A6778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6797F306-34E1-448B-BB19-FD4F436560E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6797F306-34E1-448B-BB19-FD4F436560E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6797F306-34E1-448B-BB19-FD4F436560E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6797F306-34E1-448B-BB19-FD4F436560E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
