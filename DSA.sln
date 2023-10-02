@@ -173,7 +173,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChampagneTower", "Champagne
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortArrayByParity", "SortArrayByParity\SortArrayByParity.csproj", "{D1F0BC27-BF46-4F75-AB22-C630CA502510}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonotonicArray", "MonotonicArray\MonotonicArray.csproj", "{FB179768-5B32-45B5-B7AB-BC1E58CD001D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonotonicArray", "MonotonicArray\MonotonicArray.csproj", "{FB179768-5B32-45B5-B7AB-BC1E58CD001D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWordsinaStringIII", "ReverseWordsinaStringIII\ReverseWordsinaStringIII.csproj", "{7B8254A5-1754-40FF-8FF9-69CBAF91BF96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -525,6 +527,10 @@ Global
 		{FB179768-5B32-45B5-B7AB-BC1E58CD001D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB179768-5B32-45B5-B7AB-BC1E58CD001D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB179768-5B32-45B5-B7AB-BC1E58CD001D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B8254A5-1754-40FF-8FF9-69CBAF91BF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8254A5-1754-40FF-8FF9-69CBAF91BF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8254A5-1754-40FF-8FF9-69CBAF91BF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8254A5-1754-40FF-8FF9-69CBAF91BF96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
