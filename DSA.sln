@@ -179,7 +179,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseWordsinaStringIII", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveColoredPiecesifBothNeighborsaretheSameColor", "RemoveColoredPiecesifBothNeighborsaretheSameColor\RemoveColoredPiecesifBothNeighborsaretheSameColor.csproj", "{41C6CA8E-6C4E-4070-9D86-8D674947B14D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerBreak", "IntegerBreak\IntegerBreak.csproj", "{4E6D0137-E036-4853-9E13-3C2DE4A4B1C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegerBreak", "IntegerBreak\IntegerBreak.csproj", "{4E6D0137-E036-4853-9E13-3C2DE4A4B1C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveQuotesInsideSquareBracketsAsync", "RemoveQuotesInsideSquareBracketsAsync\RemoveQuotesInsideSquareBracketsAsync.csproj", "{AB6D399E-6389-4A51-922C-5B433FE36915}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -543,6 +545,10 @@ Global
 		{4E6D0137-E036-4853-9E13-3C2DE4A4B1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E6D0137-E036-4853-9E13-3C2DE4A4B1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E6D0137-E036-4853-9E13-3C2DE4A4B1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB6D399E-6389-4A51-922C-5B433FE36915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6D399E-6389-4A51-922C-5B433FE36915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6D399E-6389-4A51-922C-5B433FE36915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6D399E-6389-4A51-922C-5B433FE36915}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
