@@ -181,7 +181,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveColoredPiecesifBothNe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegerBreak", "IntegerBreak\IntegerBreak.csproj", "{4E6D0137-E036-4853-9E13-3C2DE4A4B1C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveQuotesInsideSquareBracketsAsync", "RemoveQuotesInsideSquareBracketsAsync\RemoveQuotesInsideSquareBracketsAsync.csproj", "{AB6D399E-6389-4A51-922C-5B433FE36915}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveQuotesInsideSquareBracketsAsync", "RemoveQuotesInsideSquareBracketsAsync\RemoveQuotesInsideSquareBracketsAsync.csproj", "{AB6D399E-6389-4A51-922C-5B433FE36915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackspaceStringCompare", "BackspaceStringCompare\BackspaceStringCompare.csproj", "{1F6E1E21-E1DD-41CD-95E6-D0318BC66F58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -549,6 +551,10 @@ Global
 		{AB6D399E-6389-4A51-922C-5B433FE36915}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB6D399E-6389-4A51-922C-5B433FE36915}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB6D399E-6389-4A51-922C-5B433FE36915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6E1E21-E1DD-41CD-95E6-D0318BC66F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6E1E21-E1DD-41CD-95E6-D0318BC66F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6E1E21-E1DD-41CD-95E6-D0318BC66F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6E1E21-E1DD-41CD-95E6-D0318BC66F58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
