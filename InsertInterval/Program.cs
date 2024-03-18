@@ -43,11 +43,10 @@
 
             int[][] intervals =
             [
-                [1, 3],
-                [6, 9]
+                [1,2],[3,5],[6,7],[8,10],[12,16]
             ];
 
-            int[] newInterval = [2,5];
+            int[] newInterval = [4,8];
             
             var res = solution.Insert(intervals, newInterval);
 

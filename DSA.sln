@@ -195,7 +195,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumTimetoMakeRopeColorf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertanArrayIntoa2DArrayWithConditions", "ConvertanArrayIntoa2DArrayWithConditions\ConvertanArrayIntoa2DArrayWithConditions.csproj", "{3BD369C8-39AD-4EB0-86EA-44D94EEBE459}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertInterval", "InsertInterval\InsertInterval.csproj", "{C558E2F2-53FA-48EF-ABAA-D3CFBE769E5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertInterval", "InsertInterval\InsertInterval.csproj", "{C558E2F2-53FA-48EF-ABAA-D3CFBE769E5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumNumberofArrowstoBurstBalloons", "MinimumNumberofArrowstoBurstBalloons\MinimumNumberofArrowstoBurstBalloons.csproj", "{9538B429-E06E-4A91-B2B2-A2B12F59C937}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -591,6 +593,10 @@ Global
 		{C558E2F2-53FA-48EF-ABAA-D3CFBE769E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C558E2F2-53FA-48EF-ABAA-D3CFBE769E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C558E2F2-53FA-48EF-ABAA-D3CFBE769E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9538B429-E06E-4A91-B2B2-A2B12F59C937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9538B429-E06E-4A91-B2B2-A2B12F59C937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9538B429-E06E-4A91-B2B2-A2B12F59C937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9538B429-E06E-4A91-B2B2-A2B12F59C937}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
