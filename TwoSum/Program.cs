@@ -3,6 +3,31 @@ using System.Collections.Generic;
 
 namespace TwoSum
 {
+    public class Solution
+    {
+        public int[] TwoSUm(int[] nums, int target)
+        {
+            int[] result = new int[2];
+
+            Dictionary<int, int> map = new Dictionary<int, int>();
+            for (int i = 0; i < nums.Length; i++)
+            {
+                int complement = target - nums[i];
+                if (map.ContainsKey(complement))
+                {
+                    result[0] = i;
+                    result[1] = map[complement];
+                    return result;
+                }
+                else
+                {
+                    map[nums[i]] = i;
+                }
+            }
+
+            return result;
+        }
+    }
     internal class Program
     {
         //Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -26,20 +51,16 @@ namespace TwoSum
          */
         static void Main(string[] args)
         {
-            Console.WriteLine(Guid.NewGuid().ToString());
+            Solution solution = new Solution();
+            int[] nums = { 2, 7, 11, 15 };
+            int target = 9;
+            var res = solution.TwoSUm(nums, target);
+            foreach (int i in res)
+            {
+                Console.WriteLine(i);
+            }
             Console.ReadLine();
         }
-        public static int[] TwoSUm(int[] nums, int target)
-        {
-            int[] result = new int[2];
 
-            Dictionary<int, int> map = new Dictionary<int, int>();
-            for (int i = 0; i < nums.Length; i++)
-            {
-
-            }
-
-            return result;
-        }
     }
 }
