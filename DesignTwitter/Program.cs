@@ -47,7 +47,7 @@ twitter.getNewsFeed(1);  // User 1's news feed should return a list with 1 tweet
         public void PostTweet(int userId, int tweetId)
         {
             createUserIfNotExist(userId);
-            users[userId].Tweets.Add((tweetSeq, tweetId));
+            users[userId].Tweets.Add((tweetSeq, tweetId));// add tweet with sequence and id to user's tweets list
             tweetSeq++;
         }
 
@@ -60,12 +60,12 @@ twitter.getNewsFeed(1);  // User 1's news feed should return a list with 1 tweet
             {
                 tweets.AddRange(users[follower].Tweets);
             }
-            tweets.Sort((a, b) => b.Item1.CompareTo(a.Item1));
+            tweets.Sort((a, b) => b.Item1.CompareTo(a.Item1));// sort tweets by sequence in descending order
             List<int> res = new List<int>();
             int count = 0;
             foreach (var t in tweets)
             {
-                if (count >= 10)
+                if (count >= 10)// only get top 10 tweets
                     break;
                 res.Add(t.Item2);
                 count++;
@@ -77,14 +77,14 @@ twitter.getNewsFeed(1);  // User 1's news feed should return a list with 1 tweet
         {
             createUserIfNotExist(followerId);
             createUserIfNotExist(followeeId);
-            users[followerId].Followers.Add(followeeId);
+            users[followerId].Followers.Add(followeeId);// add followee to follower's followers list
         }
 
         public void Unfollow(int followerId, int followeeId)
         {
             createUserIfNotExist(followerId);
             createUserIfNotExist(followeeId);
-            users[followerId].Followers.Remove(followeeId);
+            users[followerId].Followers.Remove(followeeId);// remove followee from follower's followers list
         }
 
         private void createUserIfNotExist(int userId)
