@@ -365,6 +365,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignTwitter", "DesignTwit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignSecureLRUinMemoryCache", "DesignSecureLRUinMemoryCache\DesignSecureLRUinMemoryCache.csproj", "{158246A5-C011-44BA-9B52-9A63AF822D1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyConverterGraphDFS", "CurrencyConverterGraphDFS\CurrencyConverterGraphDFS.csproj", "{9FAF3E3B-72A0-4671-BEED-C60160082929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumAbsoluteDistanceBetweenMirrorPairs", "MinimumAbsoluteDistanceBetweenMirrorPairs\MinimumAbsoluteDistanceBetweenMirrorPairs.csproj", "{1F7B19E6-5E37-448A-AD3A-C67760DFFD98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInteger", "ReverseInteger\ReverseInteger.csproj", "{DCE59BF4-95C1-45D5-BD34-70E55235C991}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1091,6 +1097,18 @@ Global
 		{158246A5-C011-44BA-9B52-9A63AF822D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{158246A5-C011-44BA-9B52-9A63AF822D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{158246A5-C011-44BA-9B52-9A63AF822D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FAF3E3B-72A0-4671-BEED-C60160082929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FAF3E3B-72A0-4671-BEED-C60160082929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FAF3E3B-72A0-4671-BEED-C60160082929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FAF3E3B-72A0-4671-BEED-C60160082929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F7B19E6-5E37-448A-AD3A-C67760DFFD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7B19E6-5E37-448A-AD3A-C67760DFFD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7B19E6-5E37-448A-AD3A-C67760DFFD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7B19E6-5E37-448A-AD3A-C67760DFFD98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE59BF4-95C1-45D5-BD34-70E55235C991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE59BF4-95C1-45D5-BD34-70E55235C991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE59BF4-95C1-45D5-BD34-70E55235C991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE59BF4-95C1-45D5-BD34-70E55235C991}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
