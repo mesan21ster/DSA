@@ -373,6 +373,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseInteger", "ReverseIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckifThereisaValidPathinaGrid", "CheckifThereisaValidPathinaGrid\CheckifThereisaValidPathinaGrid.csproj", "{D340AA0E-27A9-4843-AB0B-1466C08F4DDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "instaphoto_topk_photo_brute", "instaphoto_topk_photo_brute\instaphoto_topk_photo_brute.csproj", "{1572A49D-FFBD-4E5B-AC7D-12A69D181C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "instaphoto_topk_maxLikePhotos_MinHeap_Optimal", "instaphoto_topk_maxLikePhotos_MinHeap_Optimal\instaphoto_topk_maxLikePhotos_MinHeap_Optimal.csproj", "{E0A3BE14-0D60-4CC4-91B4-3D96345B5F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "topk_maxLikePhotos_With Location_NoSameAdjusentPhoto_MaxHeap", "instaphoto_topk_maxLikePhotos_With LocationArray_NoSameAdjusentPhoto_MaxHeap_Optimal\topk_maxLikePhotos_With Location_NoSameAdjusentPhoto_MaxHeap.csproj", "{71444FEF-87EE-4CB4-B13E-E107B62B0F13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1115,6 +1121,18 @@ Global
 		{D340AA0E-27A9-4843-AB0B-1466C08F4DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D340AA0E-27A9-4843-AB0B-1466C08F4DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D340AA0E-27A9-4843-AB0B-1466C08F4DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1572A49D-FFBD-4E5B-AC7D-12A69D181C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1572A49D-FFBD-4E5B-AC7D-12A69D181C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1572A49D-FFBD-4E5B-AC7D-12A69D181C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1572A49D-FFBD-4E5B-AC7D-12A69D181C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A3BE14-0D60-4CC4-91B4-3D96345B5F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A3BE14-0D60-4CC4-91B4-3D96345B5F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A3BE14-0D60-4CC4-91B4-3D96345B5F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A3BE14-0D60-4CC4-91B4-3D96345B5F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71444FEF-87EE-4CB4-B13E-E107B62B0F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71444FEF-87EE-4CB4-B13E-E107B62B0F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71444FEF-87EE-4CB4-B13E-E107B62B0F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71444FEF-87EE-4CB4-B13E-E107B62B0F13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
