@@ -49,10 +49,10 @@ To take course 1 you should have finished course 0, and to take course 0 you sho
 
                 //b-->a
 
-                adj[b].Add(a);
+                adj[b].Add(a);//b is the pre-requisite of a, so we can go from b to a
 
                 //arrow is moving towards a
-                indegree[a]++;
+                indegree[a]++;//increment the indegree of a, as we have one more arrow coming towards a
             }
 
             //if cycle is present , not possible
@@ -84,11 +84,11 @@ To take course 1 you should have finished course 0, and to take course 0 you sho
                 //where we can go with this u - lets loop to neighbour in adj
                 foreach (int v in adj[u])
                 {
-                    indegree[v]--;
-                    if (indegree[v] == 0)
+                    indegree[v]--;//we have one less arrow coming towards v, as we have visited u and we can remove the arrow from u to v
+                    if (indegree[v] == 0)//if there is no more arrow coming towards v, we can visit v
                     {
-                        count++;
-                        queue.Enqueue(v);
+                        count++;//mark visted the node
+                        queue.Enqueue(v);//add v to the queue to visit it in the next iteration
                     }
                 }
             }

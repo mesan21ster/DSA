@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.4.11612.150
+VisualStudioVersion = 18.2.11415.280
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Karat_pair_of_2sAnd3s", "DSA\Karat_pair_of_2sAnd3s.csproj", "{75E7F3D9-C294-4B84-A2E7-DB00ED2B2806}"
 EndProject
@@ -335,17 +335,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindAllAnagramsinaString", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformedArray", "TransformedArray\TransformedArray.csproj", "{68B01AA3-58FB-4497-BD60-B838B1EE3851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpGame", "JumpGame\JumpGame.csproj", "{CED03E4A-2E69-4A86-A268-160B625C8DEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorFillMatrix_DFS", "ColorFillMatrix\ColorFillMatrix_DFS.csproj", "{9580D60E-B93C-440C-9931-602FA5787E80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumAmountofMoneyRobotCanEarn", "MaximumAmountofMoneyRobotCanEarn\MaximumAmountofMoneyRobotCanEarn.csproj", "{3C4E3C86-53EC-4CBB-BA3E-6C133A67BE04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorFillMatrix_BFS", "ColorFillMatrix_BFS\ColorFillMatrix_BFS.csproj", "{963E890D-B53F-4BA3-A907-42E026D0284D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimetoBuyandSellStockTwoPointer", "BestTimetoBuyandSellStockTwoPointer\BestTimetoBuyandSellStockTwoPointer.csproj", "{57BBC855-40D5-4C42-99E5-B91D245A126E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "No_of_Island", "No_of_Island\No_of_Island.csproj", "{BC33A318-3846-4EEA-8C1C-FA55574D9998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimetoBuyandSellStock2", "BestTimetoBuyandSellStock2\BestTimetoBuyandSellStock2.csproj", "{ECE762FE-0D5D-4285-925B-41964CF1116D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "No_of_Island_BFS", "No_of_Island_BFS\No_of_Island_BFS.csproj", "{10EFE3F5-C5CD-4786-AEC2-805B3A21196C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NearestSmallerRightIndexGapBrute", "NearestSmallerRightIndexGapBrute\NearestSmallerRightIndexGapBrute.csproj", "{F050104E-D305-442B-9ADA-7146847A021D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVparsing_SystmeDesing_Coding", "CSVparsing_SystmeDesing_Coding\CSVparsing_SystmeDesing_Coding.csproj", "{1744BAD8-CAB8-41CC-833D-6E065DBCF2B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountofSmallerNumbersAfterSelf", "CountofSmallerNumbersAfterSelf\CountofSmallerNumbersAfterSelf.csproj", "{A6358BDD-DDA4-4CAD-B88F-4E78ABD158A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlParser", "XmlParser\XmlParser.csproj", "{8C0D84D4-34EC-4492-B387-581E23E955E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotReturntoOrigin", "RobotReturntoOrigin\RobotReturntoOrigin.csproj", "{CEC7DF6D-24F5-48C0-9E43-3859470076A5}"
 EndProject
@@ -1137,10 +1137,6 @@ Global
 		{71444FEF-87EE-4CB4-B13E-E107B62B0F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71444FEF-87EE-4CB4-B13E-E107B62B0F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71444FEF-87EE-4CB4-B13E-E107B62B0F13}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E9E3200A-EBDE-42AA-B1FA-FBE657DC3F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E9E3200A-EBDE-42AA-B1FA-FBE657DC3F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E9E3200A-EBDE-42AA-B1FA-FBE657DC3F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E9E3200A-EBDE-42AA-B1FA-FBE657DC3F29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
