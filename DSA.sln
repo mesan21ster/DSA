@@ -379,6 +379,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "instaphoto_topk_maxLikePhot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "topk_maxLikePhotos_With Location_NoSameAdjusentPhoto_MaxHeap", "instaphoto_topk_maxLikePhotos_With LocationArray_NoSameAdjusentPhoto_MaxHeap_Optimal\topk_maxLikePhotos_With Location_NoSameAdjusentPhoto_MaxHeap.csproj", "{71444FEF-87EE-4CB4-B13E-E107B62B0F13}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{C1AAFEDA-8C8B-4F02-84FE-E0A4E46958D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeletetheMiddleNodeofaLinkedList-2095", "DeletetheMiddleNodeofaLinkedList-2095\DeletetheMiddleNodeofaLinkedList-2095.csproj", "{E9E3200A-EBDE-42AA-B1FA-FBE657DC3F29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1133,6 +1137,10 @@ Global
 		{71444FEF-87EE-4CB4-B13E-E107B62B0F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71444FEF-87EE-4CB4-B13E-E107B62B0F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71444FEF-87EE-4CB4-B13E-E107B62B0F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E3200A-EBDE-42AA-B1FA-FBE657DC3F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E3200A-EBDE-42AA-B1FA-FBE657DC3F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E3200A-EBDE-42AA-B1FA-FBE657DC3F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E3200A-EBDE-42AA-B1FA-FBE657DC3F29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1141,6 +1149,7 @@ Global
 		{819D67F1-92E1-4322-9E34-9C49487CC811} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{D082C784-8EC4-49EF-A590-E0AE4C6DCC41} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{154FA754-9007-4941-9151-F5051DFA58DB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E9E3200A-EBDE-42AA-B1FA-FBE657DC3F29} = {C1AAFEDA-8C8B-4F02-84FE-E0A4E46958D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83A1C6F4-8580-417C-B50A-C11EFD461D04}
