@@ -53,7 +53,7 @@ Output: [0]
 
                 //b-->a
 
-                adj[b].Add(a);
+                adj[b].Add(a);//b is the pre-requisite of a, so we can go from b to a
 
                 indegree[a]++;
             }

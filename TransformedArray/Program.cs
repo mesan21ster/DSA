@@ -23,6 +23,7 @@ Note: Since nums is circular, moving past the last element wraps around to the b
 
                 }
             }
+            return res;
         }
     }
     public class Program

@@ -1,5 +1,7 @@
 ﻿public class Solution
 {
+    //TC : O(1) for insert, delete, search, and getRandom operations. The insert and delete operations involve constant time updates to the dictionary and list, while the search operation is a constant time lookup in the dictionary. The getRandom operation is also O(1) as it involves generating a random index and retrieving the corresponding value from the list.
+    //SC : O(n) where n is the number of elements in the data structure. The dictionary and list both store the elements, so the space complexity is linear with respect to the number of elements.
     //Design a data structure that supports insert, delete, search, and getRandom in constant time.
 
     Dictionary<int, int> dict = new Dictionary<int, int>();

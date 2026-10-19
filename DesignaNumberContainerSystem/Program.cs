@@ -10,6 +10,8 @@
 
         public void Change(int index, int number)
         {
+            obj.Change(index, number);
+
 
         }
 

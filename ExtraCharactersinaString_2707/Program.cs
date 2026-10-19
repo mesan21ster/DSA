@@ -1,6 +1,8 @@
 ﻿
 namespace ExtraCharactersinaString_2707
 {
+    //TC : O(n^2) where n is the length of the input string s. This is because in the worst case, we may need to check all possible substrings of s, which can be O(n^2). Additionally, the recursive calls and memoization will also contribute to the overall time complexity.
+    //SC : O(n) for the recursion stack and O(n) for the dp array, resulting in O(n) space complexity overall.
     public class Solution
     {
         HashSet<string>? dictionarySet;

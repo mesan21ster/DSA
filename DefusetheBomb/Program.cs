@@ -35,6 +35,9 @@ Explanation: The decrypted code is [3+9, 2+3, 4+2, 9+4]. Notice that the numbers
 
     public class Solution
     {
+        //TC: O(n*k) where n is the length of the code array and k is the key. In the worst case, when k is equal to n-1, we need to sum up n-1 elements for each of the n elements in the code array, resulting in O(n*(n-1)) which simplifies to O(n^2).
+        //SC: O(n) for the newCode array that stores the decrypted code. The space complexity is linear with respect to the length of the input code array.
+
         //public int[] Decrypt(int[] code, int k)
         //{
         //    int n = code.Length;
@@ -65,6 +68,8 @@ Explanation: The decrypted code is [3+9, 2+3, 4+2, 9+4]. Notice that the numbers
         //}
 
         //Optimized with sliding window
+        //TC: O(n) where n is the length of the code array. We iterate through the code array once to calculate the decrypted values using a sliding window approach, resulting in linear time complexity.
+        //SC: O(n) for the newCode array that stores the decrypted code. The space complexity is linear with respect to the length of the input code array.
         public int[] Decrypt(int[] code, int k)
         {
             int n = code.Length;
@@ -81,29 +86,29 @@ Explanation: The decrypted code is [3+9, 2+3, 4+2, 9+4]. Notice that the numbers
             if (k > 0)
             {
                 i = 1;
-                j = k;
+                j = k;//this is for first window
             }
             else
             {
-                i = n - Math.Abs(k);
-                j = n - 1;
+                i = n - Math.Abs(k);//this is for first window
+                j = n - 1;//this is for first window
             }
 
             int zeroindexval = 0;//this is for first window
 
             for(int pointer = i; pointer <= j; pointer++)
             {
-                zeroindexval += code[pointer];
+                zeroindexval += code[pointer];//calculate the sum of first window
             }
 
             for (int p = 0; p < n; p++)
             {
-                newCode[p] = zeroindexval;
+                newCode[p] = zeroindexval;//assign the sum of current window to the decrypted code at index p
 
-                zeroindexval -= code[i %n];
+                zeroindexval -= code[i %n];//remove the first element of the current window
                 i++;
 
-                zeroindexval += code[(j + 1) % n];
+                zeroindexval += code[(j + 1) % n];//add the next element of the current window
                 j++;
             }
             return newCode;

@@ -58,7 +58,7 @@ Thus, Alice opens the gate at node 0 only. Hence, her net income is -7280.
     {
         public int MostProfitablePath(int[][] edges, int bob, int[] amount)
         {
-
+            return 0;
         }
     }
 }
