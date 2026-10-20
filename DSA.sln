@@ -379,7 +379,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "instaphoto_topk_maxLikePhot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "topk_maxLikePhotos_With Location_NoSameAdjusentPhoto_MaxHeap", "instaphoto_topk_maxLikePhotos_With LocationArray_NoSameAdjusentPhoto_MaxHeap_Optimal\topk_maxLikePhotos_With Location_NoSameAdjusentPhoto_MaxHeap.csproj", "{71444FEF-87EE-4CB4-B13E-E107B62B0F13}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{C1AAFEDA-8C8B-4F02-84FE-E0A4E46958D0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "", "", "{C1AAFEDA-8C8B-4F02-84FE-E0A4E46958D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeletetheMiddleNodeofaLinkedList-2095", "DeletetheMiddleNodeofaLinkedList-2095\DeletetheMiddleNodeofaLinkedList-2095.csproj", "{E9E3200A-EBDE-42AA-B1FA-FBE657DC3F29}"
 EndProject
